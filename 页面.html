@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 重置start */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: normal;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            font: normal normal 16px/1.5 arial;
+        }
+
+        /* 重置end */
+        /* 头部start */
+        .w1000 {
+            margin-left: auto;
+            margin-left: auto;
+            width: 960px;
+
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .logo {
+
+            background-color: #E65224;
+            height: 73px;
+            padding-top: 35px;
+        }
+
+        .logo ul {
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .logo ul p {
+            color: white;
+        }
+
+        .logo ul strong {
+            color: white;
+        }
+
+        .fl a {
+            display: block;
+            width: 182px;
+            height: 45px;
+            background: url("./images/logo.png") no-repeat;
+            text-indent: -999px;
+        }
+
+        /* 头部end */
+
+
+
+        /* 企业集合start */
+
+
+        .company {
+            overflow: hidden;
+            background-color: #f6f6f6;
+            margin-top: 60px;
+            height: 328px;
+        }
+
+        .w960 {
+            margin-left: 195px;
+            margin-right: 195px;
+            vertical-align: middle;
+        }
+
+        .text {
+            color: #666;
+            font-size: 17px;
+        }
+
+        .w960 ul {
+            overflow: hidden;
+
+        }
+
+        .text-r {
+            padding-top: 51px;
+        }
+
+        .img1 {
+            margin-top: 70px;
+
+        }
+
+        .img1 li {
+            margin-right: 105px;
+            /* float: left; */
+            display: inline-block;
+
+        }
+
+        .img2 li {
+            margin-top: 34px;
+            margin-right: 105px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .w960 ul .icon-js {
+            display: inline-block;
+            width: 112px;
+            height: 34px;
+            vertical-align: middle;
+            background: url("../images/index_sp.png") no-repeat 0 0;
+        }
+
+        .js {
+            background-position: -0px -68px;
+        }
+
+        /* 企业集合end */
+
+        /* 联系我们start */
+        .call {
+
+            background-color: #2c2c2c;
+            height: 235px;
+            color: #a9a9a9;
+            border-bottom: 1px solid #666;
+        }
+
+        .phone,
+        .num,
+        .service {
+            float: left;
+            padding-top: 59px;
+            margin-right: 100px;
+        }
+
+        .serve,
+        .address {
+            margin-top: 33px;
+            line-height: 20px;
+        }
+
+        .bt {
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .big {
+            font-size: 21px;
+        }
+
+        .small {
+            font-size: 13px;
+
+        }
+
+        .serve li,
+        .phone li {
+            line-height: 20px;
+            font-size: 13px;
+        }
+
+        .num .wb,
+        .num .wx {
+            display: inline-block;
+            margin-top: 11px;
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+            background: url("../images/index_sp.png") no-repeat 0 0;
+        }
+
+        .num .wb {
+            background-position: -173px -7px;
+        }
+
+        .num .wx {
+            background-position: -230px -7px;
+        }
+
+        /* 联系我们end */
+        .end {
+            background-color: #2c2c2c;
+        }
+
+        .liniu {
+            padding-top: 18px;
+            line-height: 18px;
+            text-align: center;
+            font-size: 15px;
+            color: #666;
+        }
+
+        .first {
+           
+            margin-left: 195px;
+            margin-right: auto;
+
+        }
+
+        .shouye {
+            overflow: hidden;
+        }
+
+        .first a {
+            color: #4d4d4d;
+        }
+
+        .shouye li {
+            display: inline-block;
+            margin-left: 65px;
+            margin-top: 35px;
+            padding-bottom: 30px;
+        }
+
+        .imge {
+            height: 450px;
+            width: 960px;
+        }
+
+        .imge img {
+            display: inline-block;
+            height: 450px;
+            width: 960px;
+            overflow: hidden;
+            margin-left: 195px;
+            margin-right: auto;
+        }
+
+
+        .button {
+            overflow: hidden;
+            
+        }
+.wen{
+    margin-left: 195px;
+    
+    margin-right: auto;
+    margin-top: 46px;
+    
+}
+        .wen dl {
+            width: 160px;
+            height: 81px;
+            float: left;
+            margin-right: 120px;
+        }
+.wen dl dt{
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.wen dl dd{
+    font-size: 12px;
+    color:#696969;
+}
+        .wen img{
+            display: inline-block;
+            width: 81px;
+            height: 81px;
+            float: left;
+        }
+        .biaoti{
+            width: 960px;
+            height: 21px;
+            line-height: 21px;
+            vertical-align: middle;
+            margin-top: 65px;
+            margin-left: 523px;
+            margin-right: auto;
+            overflow: hidden;
+        }
+        .biaoti .zhu{
+            display: block;
+           font-weight: bold;
+            color:#4b4b4b;
+            font-size: 21px;
+            float: left; 
+        }
+        .biaoti .pro{
+            display: block;
+            float: left;
+            color:#a7b3c8;
+            font-size: 14px;
+        }
+.pp{
+    width:1000px;
+    overflow: hidden;
+    margin-left: 195px;
+    margin-right: auto;
+    margin-top: 53px;
+}
+.detail1{
+    float:left;
+    width: 225px;
+margin-right: 20px;
+
+}
+.detail1 h1{
+    color:#ff655a;
+    font-size: 14px;
+}
+.detail1 p{
+    font-size:13px ;
+    color:#9f9f9f ;
+}
+.liji{
+    margin-top: 32px;
+    margin-left: 195px;
+    margin-right: auto;
+    
+}
+.liji a{
+    /* width: 103px;
+    height: 39px; */
+    margin-right: 139px;
+    padding:14px 18px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #4b4b4b;
+}
+
+.about_us{
+    display:inline-block;
+    margin-top: 71px;
+    text-align: center;
+    height: 193px;
+    width: 960px;
+    margin-left:195px;
+    margin-right: auto;
+    /* border:1px solid black; */
+    background: url("./images/about.jpg") no-repeat;
+}
+.w548{
+    padding-left: 198px;
+    width: 548px;
+    
+}
+
+.w548 h1{
+    margin-top: 36px;
+    font-weight: bold;
+color: #fff;
+font-size: 19px;
+}
+.w548 p{
+    margin-top: 45px;
+    color: #fff;
+    font-size: 13px;
+}
+.news{
+    margin-left: 195px;
+    margin-right: auto;
+    overflow: hidden;
+}
+.licai,.licai1,.question{
+    /* float: left; */
+    display: inline-block;
+    margin-right: 27px;
+    overflow: hidden;
+}
+.licai1{
+    margin-top: 117px;
+}
+.zixun1{
+    margin-top: 60px;
+    overflow: hidden;
+}
+.news1{
+    color: #a7a7a7;
+    font-size: 21px;
+    float: left;
+}
+.zixun{
+    font-size: 21px;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 26px;
+}
+.left{
+    color: #666;
+    font-size: 15px;
+    overflow: hidden;
+}
+.left li{
+    margin-top: 36px;
+}
+
+.left .time1{
+    float: right;
+}
+.hui{
+    
+    color: #666;
+    font-size: 14px;
+    display: block;
+}
+.que{
+   
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+.zj img{
+    display: inline-block;
+    width: 297px;
+    height: 170px;
+}
+        .question li{
+           padding-bottom: 20px;
+           padding-top: 15px;
+           line-height: 3;
+           border-bottom: 1px dashed #ccc;
+       }
+       .question li.last{
+           border-bottom:none;
+       }
+       .question li .answer{
+           line-height: 2;
+           background-repeat: no-repeat;
+           width: 240px;
+           padding-left: 40px;
+           background-position: left center;;
+       }
+       .question .ask{
+           text-indent: 2em;
+           line-height: 25px;
+           vertical-align: middle ;
+           background: url("./images/q(1).jpg") no-repeat;
+           font-size: 16px;
+       }
+       .question .answer{
+           background: url("./images/q2.jpg") no-repeat;
+           color: #646464;
+           font-size: 14px;
+       }
+       
+    </style>
+</head>
+
+<body>
+    <!-- 头部start -->
+    <div class="wraper">
+        <div class="logo">
+            <ul class="w1000">
+                <li class="fl">
+                    <h1>
+                        <a href="">利牛网</a>
+                    </h1>
+                </li>
+                <li class="fr">
+                    <img class="fl" src="./images/phone.png" alt="电话">
+                    <div class="fr">
+                        <p>财富热线</p>
+                        <strong>1234567890</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部end -->
+    <div class="first">
+        <ul class="shouye">
+            <li class="p"><a href="#"> 首页</a></li>
+            <li><a href="#"> 关于利牛</a></li>
+            <li><a href="#"> 行业资讯</a></li>
+            <li><a href="#"> 主要业务</a></li>
+            <li><a href="#"> 安全保障</a></li>
+        </ul>
+    </div>
+    <!-- 轮播图start -->
+    <div class="imge">
+        <img src="images\bigAdvimg.png" alt="">
+        <!-- <i class="pig"></i> -->
+    </div>
+    <!-- 轮播图end -->
+
+    <!-- 稳定高收益start -->
+    <div class="button">
+        <div class="wen">
+            <img src="images\promise1.png" alt="">
+            <dl>
+                
+                <dt>稳定高收益</dt>
+                <dd>40倍银行活期存款利息,100元起投，交易0手续费</dd>
+
+            </dl>
+        </div>
+        <div class="wen">
+            <img src="images\promise2.png" alt="">
+            <dl>
+               
+                <dt>安全严保障</dt>
+                <dd>本息保障、风控审核贷后管理</dd>
+
+            </dl>
+        </div>
+        <div class="wen">
+            <img src="images\promise3.png" alt="">
+            <dl>
+                
+                <dt>便捷优服务</dt>
+                <dd>24小时放宽，提前还款减免费用</dd>
+
+            </dl>
+        </div>
+
+    </div>
+    <!-- 稳定高收益end -->
+
+<!-- 新闻start -->
+<div class="about">
+    <div class="biaoti"><p class="zhu">主要业务</p> <p class="pro">/PRODUCTS SERVICES</p>
+    </div>
+    <div class="pp">
+    <div class="detail1">
+        <img src="images\business1.png" alt="">
+        <h1>投资业务</h1>
+        <p>证券投资业务，指银行购买有价证券的活动。</p>
+        
+    </div>
+    <div class="detail1">
+        <img src="images\business2.png" alt="">
+        <h1>理财增值</h1>
+        <p>通过发行基金单位，集中投资者的资金，由基金管理人管理和运用资金。</p>
+        
+        
+    </div>
+    <div class="detail1">
+        <img src="images\business3.png" alt="">
+        <h1>信托服务</h1>
+        <p>信托业务建立了以项目为中心，以风险贯穿其间的业务运作平台。</p>
+        
+    </div>
+    <div class="detail1">
+        <img src="images\business4.png" alt="">
+        <h1>产品代理</h1>
+        <p>通过代理的形式，推广和买卖产品，是产品的一种交易和流通方式。</p>
+        
+    </div>
+</div>
+<div class="liji">
+    <a href="#">立即咨询>></a>
+    <a href="#">立即咨询>></a>
+    <a href="#">立即咨询>></a>
+    <a href="#">立即咨询>></a>
+</div>
+</div>
+
+<!-- 新闻end -->
+
+<!-- 关于我们start -->
+<div class="about_us">
+    <div class="w548">
+        
+    <h1>关于我们</h1>
+    <p>利牛金融有限公司是在1991年5月13日成立的爱宏保险公司的基础上组建而成的金融集团公司，总部设在上海，以“推动和实现可持续的价值增长”为经营理念</p>
+
+</div>
+</div>
+<!-- 关于我们end -->
+
+<!-- 新闻start -->
+
+<div class="news">
+    <div class="licai">
+        <div class="zixun1"><p class="zixun">新闻资讯</p> <p class="news1">/NEWS</p>
+
+        </div>
+        <div class="zj">
+            <img src="images\news1.jpg" alt="">
+            <ul class="left">
+                <li>证监会：分级基金投资者门...        2016-11-29</li>
+                <li>证监会：分级基金投资者门...        2016-11-29</li>
+                <li>证监会：分级基金投资者门...    2016-11-29</li>
+                <li>证监会：分级基金投资者门...    2016-11-29</li>
+            </ul>
+        </div>
+    </div>
+    <div class="licai1">
+        <div class="zj">
+            <img src="images\news2.jpg" alt="">
+            <ul class="left">
+                <li>证监会：分级基金投资者门...    2016-11-29</li>
+                <li>证监会：分级基金投资者门...    2016-11-29</li>
+                <li>证监会：分级基金投资者门...    2016-11-29</li>
+                <li>证监会：分级基金投资者门...    2016-11-29</li>
+            </ul>
+        </div>
+    </div>
+    <div class="question">
+        <div class="zixun1"><p class="zixun">常见问题</p> <p class="news1"> / Q&A</p>
+
+        </div>
+        <ul>
+            <li>
+                <p class="ask" style="padding-bottom: 10px;">个人征集记录要注重哪些？</p>
+                <p class="answer">个人信息:姓名，证件类型证件号码</p>
+            </li>
+            <li>
+                <p class="ask" style="padding-bottom: 10px;">银行理财产品该怎么选？</p>
+                <p class="answer">现在各大银行都推出琳琅满目的王景峰产品，我们该如何选择呢？</p>
+            </li>
+            <li class="last">
+                <p class="ask" style="padding-bottom: 10px;">银行理财产品该怎么选？</p>
+                <p class="answer">现在各大银行都推出琳琅满目的王景峰产品，我们该如何选择呢？</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 新闻end -->
+    <!-- 企业集合start -->
+    <div class="company">
+        <div class="w960">
+            <div class="text">
+                <p class="text-r">合作机构</p>
+            </div>
+            <ul class="img1">
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+            </ul>
+            <ul class="img2">
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+                <li><i class="icon-js"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 企业集合end -->
+
+
+    <!-- 联系我们start -->
+    <div class="call">
+        <div class="w960">
+            <div class="phone">
+                <p class="bt">联系我们</p>
+                <ul class="address">
+                    <li>地址：广州市珠海区苏州街18号F栋3单元3A02</li>
+                    <li>邮编：510000</li>
+                    <li>邮件：2383003879@qq.com</li>
+                </ul>
+            </div>
+            <div class="num">
+                <p class="bt">客服热线</p>
+                <p class="big">18825039863</p>
+                <p class="small">（工作时间 9:00-21:00）</p>
+                <i class="wb"></i>
+                <i class="wx"></i>
+                <i class="wx"></i>
+                <i class="wx"></i>
+            </div>
+            <div class="service">
+                <p class="bt">商家服务</p>
+                <ul class="serve">
+                    <li>商家入驻</li>
+                    <li>培训中心</li>
+                    <li>广告服务</li>
+                    <li>服务市场</li>
+                </ul>
+            </div>
+            <div class="service">
+                <p class="bt">帮助信息</p>
+                <ul class="serve">
+                    <li>帮助中心</li>
+                    <li>培训中心</li>
+                    <li>新手指引</li>
+                    <li>安全保障</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 联系我们end -->
+    <div class="end">
+        <div class="liniu">
+            <p>2016 利牛金融有限公司 版权所有</p><br>
+            <p>本站使用凡科建站 搭建</p><br>
+        </div>
+    </div>
+</body>
+
+</html>
